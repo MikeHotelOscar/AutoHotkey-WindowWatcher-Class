@@ -6,7 +6,7 @@ The Rule class can be invoked by either the WindowWatcher class (described below
 ```
 global newRule := new Rule(WinTitle, ExcTitle, OpenFunc, CloseFunc)
 ```
-In this, WinTitle is a typical WinTitle, as is ExcTitle. OpenFunc is the name of a function to run when a matching window opens, closefunc when a matching window closes. All parameters are strings.
+In this, WinTitle is a typical WinTitle, as is ExcTitle. OpenFunc is the name of a function to run when a matching window opens, CloseFunc when a matching window closes. All parameters are strings.
 
 ## WindowWatcher Class
 The WindowWatcher class is a management wrapper for the Rule class, invoked by something similar to the following example:
