@@ -1,5 +1,5 @@
 # AutoHotkey-WindowWatcher-Class
-The WindowWatcherClass.exe file contains two classes, *Rule* and *WindowWatcher*. These classes allow you to designate functions to run automatically when a window matching a typical WinTitle, but excluding those matching an exclusion WinTitle, opens or closes.
+The WindowWatcherClass.ahk file contains two classes, *Rule* and *WindowWatcher*. These classes allow you to designate functions to run automatically when a window matching a typical WinTitle, but excluding those matching an exclusion WinTitle, opens or closes.
 
 ## Rule Class
 The Rule class can be invoked by either the WindowWatcher class (described below) or by something similar to the following example:
