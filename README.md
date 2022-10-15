@@ -41,7 +41,7 @@ Resume all Rules:
 ```
 WinWatch.ResumeAll()
 ```
-and Delete all Rules:
+and Delete all Rules: 
 ```
 WinWatch.DeleteAll()
 ```
